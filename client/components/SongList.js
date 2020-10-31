@@ -39,7 +39,7 @@ class SongList extends Component {
                     to="/songs/new"
                     className="btn-floating btn-large red right"
                 >
-                    <i className="material-icons">add</i>
+                    <i className="material-icons" style={{paddingRight: '8px'}}>add</i>
                 </Link>
             </div>
         );
