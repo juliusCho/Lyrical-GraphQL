@@ -1,5 +1,7 @@
+<!--
 # Demo
 https://juliuscho.github.io/lyrical-graphql
+-->
   
 # Used Languages/Frameworks
 1. Javascript
