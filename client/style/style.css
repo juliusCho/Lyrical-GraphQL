@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+}
+
+.collection {
+    margin: 20px 0;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-icons {
+    cursor: pointer;
+    margin-left: 5px;
+}
+.material-icons:hover {
+    color: red;
+}
+.material-icons:active {
+    animation-name: sizeUp;
+    animation-duration: 0.1s;
+}
+@keyframes sizeUp {
+    0% {
+        font-size: 25px;
+    }
+    100% {
+        font-size: 30px;
+    }
+}
+
+.vote-box {
+    display: flex;
+    align-items: center;
+}
